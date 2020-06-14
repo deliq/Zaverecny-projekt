@@ -1,0 +1,54 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="my.css">
+
+</head>
+
+<body>
+    <div id="nahrada_txt">
+        <div>     
+            <div v-if="jazyk" >
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"   v-on:click="moznost=true" checked>
+                <label class="custom-control-label" for="customRadioInline1">Prepinanie jazyka kliknutim</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input"   v-on:click="moznost=false">
+                <label class="custom-control-label" for="customRadioInline2">Prepinanie jazyka iba ukazanim kurzora</label>
+                </div>
+                </div>   
+                <div v-else>
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" v-on:click="moznost=true" checked>
+                <label class="custom-control-label" for="customRadioInline1">Switch language by click </label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" v-on:click="moznost=false" >
+                <label class="custom-control-label" for="customRadioInline2">Switch language move of cursor </label>
+                </div>
+                </div>
+        </div>
+        <div>
+             <div class="vlajky" v-if="moznost">
+            <button  v-on:click="jazyk=true" > <img v-bind:src="svk" width="160" height="80" border="1px"> </button>
+            <button  v-on:click="jazyk=false"> <img v-bind:src="eng"  width="160" height="80"> </button>
+             </div>
+            <div class="vlajky" v-else>
+            <button  @mouseover="jazyk=true" v-on:click="nadpis=true"> <img  width="160" height="80" border="1px" v-bind:src="svk"> </button>
+            <button  @mouseover="jazyk=false" v-on:click="nadpis=false" > <img   width="160" height="80" v-bind:src="eng"> </button>
+            </div>
+        </div>
+        <div>
+            <h1 class="nahrada_nadpis" style="font-size:20px" v-if="jazyk" > {{nadpis1}} </h1>
+            <h1 class="nahrada_nadpis" style="font-size:20px" v-else> {{nadpis2}} </h1>
+            <p class="nahrada_txt" v-if="jazyk">{{text}} </p>
+            <p class="nahrada_txt" v-else>{{text1}}</p>
+        </div>
+        
+
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="vue.js"></script>
+</body>

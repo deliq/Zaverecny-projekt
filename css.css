@@ -1,0 +1,236 @@
+.login-zarovnanie{
+    margin-left:42%;
+    margin-top:20%;
+    font-family:Arial;
+    font-size: 15px;
+}
+
+.logout {
+    width: 40px;
+    height: 40px;
+    border: 1px ridge black;
+    margin-top: 2%;
+    margin-left:90%;
+}
+.admin_tlacitka {
+    margin-left: 42%;
+    margin-top: 20%;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.uvod_tlacitka {
+    margin-left: 38%;
+    margin-top: 20%;
+    font-family: Arial;
+    font-size: 15px;  
+}
+
+
+.home {
+    width: 40px;
+    height: 40px;
+    border: 1px ridge black;
+    margin-left: 2%;
+    margin-top:2%;
+}
+
+
+.info_text{
+    margin-top: 10px;
+    text-align:start;
+}
+
+
+
+
+.id_vymazat{
+    width:80px;
+}
+.id_vymazat_txt {
+    color: #ff1a1a
+}
+.delete_button {
+    width: 90px;
+    margin-left: 45px;
+    margin-top:8px;
+}
+.vymazat_div{
+    margin-left:40%;
+    
+
+}
+.novy_clen {
+    width: 50%;
+    text-align: right;
+    margin-top: 10%;
+    font-family: Arial;
+    
+}
+.input_pridat {
+    
+    font-size: 20px;
+    height: 28px;
+    width: 200px;
+}
+.pismo_pridat{
+    
+    font-size:25px;
+}
+.sirka{
+
+    margin-top:10px;
+}
+.prinovy_clen {
+    
+    text-align: center;
+    margin-top: 10%;
+    font-family: Arial;
+}
+.pripismo_pridat {
+    
+    font-size: 25px;
+}
+.prisirka {
+   
+    margin-top: 10px;
+}
+.row {
+    align-self:central;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    margin: 10%;
+    margin-top:5%
+    
+}
+.nav-link {
+    float:none;
+    border-style: outset;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+}
+h1{
+    text-align:center;
+    margin-left:30%;
+    width:40%;
+    background-color:darkolivegreen;
+}
+body {
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.slovo{
+
+}
+
+}
+#prihlasit_button{
+    float:right;
+}
+.nav-pills{
+    margin-left:6px;
+    margin-top:7px;
+}
+h2 {
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    background-color: darkolivegreen;
+}
+#tabulka {
+    margin-left:25%;
+    text-align: center;
+    width: 50%;
+}
+.hlvypis_clenovia {
+    padding: 1%;
+    float: left;
+    width: 60%;
+    background-color: darkolivegreen;
+    margin-left: 20%;
+}
+#carta {
+    margin-left: 4%;
+    float: left;
+    width: 27%;
+}
+#carta:after {
+    content: "";
+    display: table;
+    
+}
+.samotny_text {
+    font-family: Arial;
+    width: 30%;
+}
+.clanky_vypis {
+    
+    margin-left: 20%;
+    margin-top: 10%;
+    width:31%;
+}
+.ramcek {
+    width:90%;
+    margin-top:5%;
+    background-color: darkolivegreen;
+    font-size: 20px;
+    border-style: groove;
+    border-radius: 5px;
+}
+#carta1{
+    background-color:darkolivegreen;
+}
+.kontakt_uprava{
+    width: 400px;
+    margin-left:40%;
+}
+
+.ziadost{
+    
+    margin-left:43%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+.btn-primary {
+    margin-left: 50px;
+}
+
+#nahrada_txt {
+    margin-left: 30%;
+    border-style: ridge;
+    background-color:darkolivegreen;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.nahrada_nadpis {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+.vlajky {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.custom-control {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.custom-select {
+    border-style: ridge;
+    width: 40%;
+}
+.123id_vymazat_txt {
+    color: #ff1a1a;
+    float:left;
+}
